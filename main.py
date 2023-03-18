@@ -1,5 +1,6 @@
 import pygame
 import random
+import sys
 
 # Set up game window
 pygame.init()
@@ -8,8 +9,9 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Hangman Game")
 
 # Load hangman graphics
-hangman_imgs = [pygame.image.load(f"hangman{i}.png") for i in range(7)]
-hangman_rect = hangman_imgs[0].get_rect(center=(WIDTH/2, HEIGHT/2))
+hangman_imgs = [pygame.image.load(f"./assets/hangman{i}.png") for i in range(7)]
+hangman_rect = hangman_imgs[0].get_rect(center=(WIDTH / 2, HEIGHT / 2))
+
 
 # Define game logic functions
 def get_word():
@@ -17,10 +19,12 @@ def get_word():
     words = ["python", "programming", "hangman", "game"]
     return random.choice(words)
 
+
 def check_guess(word, guessed_letters):
     # Check if guessed letters are in word
     correct = [c if c in guessed_letters else "_" for c in word]
     return "".join(correct)
+
 
 # Set up game state
 word = get_word()
@@ -58,6 +62,6 @@ while True:
     screen.blit(hangman_imgs[misses], hangman_rect)
     font = pygame.font.Font(None, 48)
     text = font.render(correct_guess, True, (255, 255, 255))
-    screen.blit(text, (WIDTH/2 - text.get_width()/2, HEIGHT*3/4))
+    screen.blit(text, (WIDTH / 2 - text.get_width() / 2, HEIGHT * 3 / 4))
     pygame.display.flip()
     clock.tick(60)
