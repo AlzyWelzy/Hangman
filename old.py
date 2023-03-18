@@ -1,7 +1,15 @@
 import random
-import sys
 
-words = ["computer", "umbrella", "telescope", "smartphone"]
+
+# words = ["computer", "umbrella", "telescope", "smartphone"]
+
+
+words = []
+with open("words.txt", "r") as f:
+    for line in f:
+        words.append(line.strip())
+
+
 word = random.choice(words).upper()
 
 total_chances = 7
