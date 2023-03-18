@@ -1,0 +1,105 @@
+apple
+banana
+orange
+pear
+grape
+watermelon
+mango
+kiwi
+pineapple
+peach
+apricot
+plum
+cherry
+blueberry
+raspberry
+strawberry
+blackberry
+pomegranate
+guava
+papaya
+lemon
+lime
+grapefruit
+dragonfruit
+lychee
+passionfruit
+persimmon
+fig
+date
+coconut
+avocado
+kiwano
+starfruit
+cantaloupe
+honeydew
+rockmelon
+cucumber
+tomato
+potato
+carrot
+broccoli
+cauliflower
+cabbage
+lettuce
+spinach
+kale
+arugula
+beet
+radish
+turnip
+garlic
+onion
+shallot
+ginger
+turmeric
+cinnamon
+nutmeg
+vanilla
+oregano
+basil
+thyme
+rosemary
+coriander
+cumin
+paprika
+mustard
+black pepper
+white pepper
+red pepper
+cayenne pepper
+garlic powder
+onion powder
+chili powder
+curry powder
+garam masala
+soy sauce
+hoisin sauce
+oyster sauce
+sriracha sauce
+mayonnaise
+mustard
+ketchup
+vinegar
+olive oil
+coconut oil
+sesame oil
+peanut butter
+almond butter
+cashew butter
+hazelnut spread
+honey
+maple syrup
+agave nectar
+molasses
+brown sugar
+powdered sugar
+granulated sugar
+cornstarch
+flour
+cornmeal
+oats
+quinoa
+rice
+pasta
+breadcrumbs
