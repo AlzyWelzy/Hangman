@@ -35,7 +35,7 @@ The code for the Hangman game is structured as follows:
 - `hangman.py`: The main file that runs the game loop and handles user input.
 - `words.txt`: A text file containing a list of words to choose from.
 - `assets/`: A directory containing the hangman graphics that are displayed during the game.
-- `util.py`: A module containing utility functions used in the game logic.
+<!-- - `util.py`: A module containing utility functions used in the game logic. -->
 
 ## Contributing
 
